@@ -1,0 +1,199 @@
+<div class="container">
+  <div class="row">
+    <h2 style="font-family: 'Times New Roman', Times, serif; text-align: center;">Asserts</h2>
+
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="input-group">
+        <div class="input-group-btn search-panel">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span>Filter by</span> <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a>Model</a></li>
+            <li><a>Assigned To:</a></li>
+            <li><a>Serial Number</a></li>
+          </ul>
+        </div>
+        <input type="hidden" name="search_param" value="all" id="search_param">
+        <input type="text" class="form-control" name="x" placeholder="Search Device...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Serial Number</th>
+        <th>Availability</th>
+        <th>Faults</th>
+        <th>Assigned To</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Lenovo 520</td>
+        <td>Laptop</td>
+        <td>41AA4552D_!</td>
+        <td>❌</td>
+        <td>[Slow Performance] [Broken Screen] [Battery Issue]</td>
+        <td><a href="#"> Dumisani Ndhlovu</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>HP 41 520</td>
+        <td>Laptop</td>
+        <td>GDB12541!</td>
+        <td>❌</td>
+        <td>[Slow Performance] [Battery Issue]</td>
+        <td><a href="#">Dumisani Samuel Ndhlovu</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>32 Inch Sumsung</td>
+        <td>Monitor</td>
+        <td>AHNDJD26AA</td>
+        <td>❌</td>
+        <td>[Limited Access] [Broken Screen] [Very Old]</td>
+        <td><a href="#">Njabulo Nelson Ndhlovu</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Hauwei 420 Router</td>
+        <td>Router</td>
+        <td>41AA4552D_!</td>
+        <td>❌</td>
+        <td>None</td>
+        <td>N/A</td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Toshiba 414 Old</td>
+        <td>Laptop</td>
+        <td>41AA4552D_!</td>
+        <td>✔</td>
+        <td>[No charger] [HDMI Port Not Working] [Battery Issue]</td>
+        <td>N/A</td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Lenovo 520</td>
+        <td>Laptop</td>
+        <td>41AA4552D_!</td>
+        <td>❌</td>
+        <td>None</td>
+        <td><a href="#">Lesego Dzhombe</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Samsung 410 Intel i7 core</td>
+        <td>Monitor</td>
+        <td>41AA4552D_!</td>
+        <td>❌</td>
+        <td>[Keyboard Not Working]</td>
+        <td><a href="#">Liza Mohotlane</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>HP 41 520</td>
+        <td>Laptop</td>
+        <td>GDB12541!</td>
+        <td>❌</td>
+        <td>[None]</td>
+        <td><a href="#">John Vuyo Khoza</a></td>
+        <td>
+          <button type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-danger btn-xs dt-delete">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Row information</h4>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
